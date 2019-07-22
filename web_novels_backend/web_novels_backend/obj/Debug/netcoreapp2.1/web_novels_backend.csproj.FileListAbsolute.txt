@@ -1,0 +1,14 @@
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/bin/Debug/netcoreapp2.1/web_novels_backend.deps.json
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/bin/Debug/netcoreapp2.1/web_novels_backend.runtimeconfig.json
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/bin/Debug/netcoreapp2.1/web_novels_backend.runtimeconfig.dev.json
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/bin/Debug/netcoreapp2.1/web_novels_backend.dll
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/bin/Debug/netcoreapp2.1/web_novels_backend.pdb
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.csprojAssemblyReference.cache
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.csproj.CoreCompileInputs.cache
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.RazorAssemblyInfo.cache
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.RazorAssemblyInfo.cs
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.AssemblyInfoInputs.cache
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.AssemblyInfo.cs
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.RazorTargetAssemblyInfo.cache
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.dll
+/Users/jaime/Desktop/My Programming/web-novels/web_novels_backend/web_novels_backend/obj/Debug/netcoreapp2.1/web_novels_backend.pdb
