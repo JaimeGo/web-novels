@@ -23,6 +23,10 @@ namespace web_novels_backend.Controllers
             _context = context;
             fileProvider = fileprovider;
             hostingEnvironment = env;
+
+            _context.Database.OpenConnection();
+            _context.Database.EnsureCreated();
+
         }
         // GET api/webnovels
         [HttpGet]

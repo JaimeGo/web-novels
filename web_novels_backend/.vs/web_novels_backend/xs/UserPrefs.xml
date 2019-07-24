@@ -1,27 +1,24 @@
 ﻿<Properties StartupConfiguration="{114BB000-221D-4095-B08D-3915BDFBAA6D}|Default">
   <MonoDevelop.Ide.ItemProperties.web__novels__backend PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="web_novels_backend/Controllers/ChaptersController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web_novels_backend/Startup.cs">
     <Files>
       <File FileName="web_novels_backend/Properties/launchSettings.json" Line="30" Column="2" />
-      <File FileName="web_novels_backend/appsettings.json" />
+      <File FileName="web_novels_backend/appsettings.json" Line="9" Column="39" />
       <File FileName="web_novels_backend/appsettings.Development.json" />
-      <File FileName="web_novels_backend/Program.cs" />
-      <File FileName="web_novels_backend/Startup.cs" />
-      <File FileName="web_novels_backend/Models/Webnovel.cs" />
+      <File FileName="web_novels_backend/Program.cs" Line="18" Column="9" />
+      <File FileName="web_novels_backend/Startup.cs" Line="35" Column="4" />
+      <File FileName="web_novels_backend/Models/Webnovel.cs" Line="12" Column="57" />
       <File FileName="web_novels_backend/Models/Chapter.cs" />
       <File FileName="web_novels_backend/web_novels_backend.csproj" />
-      <File FileName="web_novels_backend/Controllers/WebnovelsController.cs" />
+      <File FileName="web_novels_backend/Controllers/WebnovelsController.cs" Line="22" Column="10" />
       <File FileName="web_novels_backend/Controllers/ChaptersController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="web_novels_backend" expanded="True">
+          <Node name="web_novels_backend" expanded="True" selected="True">
             <Node name="web_novels_backend" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ChaptersController.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>

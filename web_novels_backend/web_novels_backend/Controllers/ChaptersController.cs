@@ -15,6 +15,9 @@ namespace web_novels_backend.Controllers
         public ChaptersController(WebnovelContext context)
         {
             _context = context;
+
+            _context.Database.OpenConnection();
+            _context.Database.EnsureCreated();
         }
 
         // GET api/webnovels/{webnovelId}/chapters/

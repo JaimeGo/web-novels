@@ -14,4 +14,10 @@ Global
 		{114BB000-221D-4095-B08D-3915BDFBAA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114BB000-221D-4095-B08D-3915BDFBAA6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+	EndGlobalSection
 EndGlobal

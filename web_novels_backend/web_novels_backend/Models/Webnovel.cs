@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
 namespace web_novels_backend.Models
@@ -9,10 +10,10 @@ namespace web_novels_backend.Models
     {
         public DbSet<Webnovel> Webnovels { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=webnovels.db");
-        }
+        
+        public WebnovelContext(DbContextOptions<WebnovelContext> options)
+            : base(options)
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
