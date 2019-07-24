@@ -7,10 +7,10 @@
       <File FileName="web_novels_backend/appsettings.Development.json" />
       <File FileName="web_novels_backend/Program.cs" />
       <File FileName="web_novels_backend/Startup.cs" />
-      <File FileName="web_novels_backend/Models/Webnovel.cs" Line="28" Column="20" />
-      <File FileName="web_novels_backend/Models/Chapter.cs" Line="10" Column="20" />
-      <File FileName="web_novels_backend/web_novels_backend.csproj" Line="20" Column="1" />
-      <File FileName="web_novels_backend/Controllers/WebnovelsController.cs" Line="57" Column="1" />
+      <File FileName="web_novels_backend/Models/Webnovel.cs" />
+      <File FileName="web_novels_backend/Models/Chapter.cs" />
+      <File FileName="web_novels_backend/web_novels_backend.csproj" />
+      <File FileName="web_novels_backend/Controllers/WebnovelsController.cs" />
       <File FileName="web_novels_backend/Controllers/ChaptersController.cs" Line="1" Column="1" />
     </Files>
     <Pads>

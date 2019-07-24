@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -27,7 +26,7 @@ namespace web_novels_backend.Controllers
         }
         // GET api/webnovels
         [HttpGet]
-        public async Task<IActionResult> IndexAsync()
+        public async Task<IActionResult> IndexWebnovels()
         {
             List<Webnovel> webnovels = await _context.Webnovels.ToListAsync();
             return Ok(webnovels);
@@ -35,7 +34,7 @@ namespace web_novels_backend.Controllers
 
         // GET api/webnovels/5
         [HttpGet("{id}")]
-        public async Task<ActionResult> GetAsync(long id)
+        public async Task<ActionResult> GetWebnovel(long id)
         {
             Webnovel webnovel = await _context.Webnovels.FindAsync(id);
             if (webnovel==null)
@@ -106,13 +105,14 @@ namespace web_novels_backend.Controllers
                 return BadRequest(e);
             }
 
-            return Ok(webnovel);
+            return CreatedAtAction(nameof(GetWebnovel), new { id = webnovel.Id }, webnovel);
+            
   
         }
 
         // PUT api/webnovels/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> PutAsync(long id, [Bind("Id,Title,Author,Translator,Description")] Webnovel webnovel)
+        public async Task<ActionResult> PutWebnovel(long id, [Bind("Id,Title,Author,Translator,Description")] Webnovel webnovel)
         {
             if (id != webnovel.Id)
             {
@@ -127,7 +127,7 @@ namespace web_novels_backend.Controllers
 
         // DELETE api/webnovels/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult> DeleteWebnovel(long id)
         {
             Webnovel webnovel = await _context.Webnovels.FindAsync(id);
             if (webnovel == null)
